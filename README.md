@@ -4,7 +4,7 @@
 #
 The combination of client and server rendering is known as Isomorphic rendering. Isomorphic react template is usefull when you want to create an isomorphic react application without using create-react-app tool. By using this template you will be able to use the following methods:
 
-  - Routing by defining the set of routes in json file (It will check with regular expression later in express so you can use routes with parameters as well)
+  - Routing by defining the set of routes in src/configuration/routes.js file (It will check with regular expression later in express so you can use routes with parameters as well)
   - Server-side rendering (StaticRouter, ReactDOMServer, staticContext & Redirect)
   - Client-side rendering (BrowserRouter, HashRouter)
   - Isomorphic (First request will render in server-side then will chain to clint side rendering)
