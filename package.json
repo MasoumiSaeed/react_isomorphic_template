@@ -1,0 +1,56 @@
+{
+  "name": "react_isomorphic_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --watch --mode development"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "React",
+    "React Router",
+    "Server side rendering",
+    "Client side rendering",
+    "Express",
+    "Webpack",
+    "Babel",
+    "ReactDOMServer",
+    "StaticRouter",
+    "Isomorphic"
+  ],
+  "author": {
+    "name": "Saeed Masoumi",
+    "email": "masoumi.saeed@gmail.com",
+    "url": "https://github.com/MasoumiSaeed"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "nodemon-webpack-plugin": "^4.3.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
