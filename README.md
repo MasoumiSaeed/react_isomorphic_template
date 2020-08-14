@@ -7,7 +7,7 @@ The combination of client and server rendering is known as Isomorphic rendering.
   - Routing by defining the set of routes in src/configuration/routes.js file (It will check with regular expression later in express so you can use routes with parameters as well)
   - Server-side rendering (StaticRouter, ReactDOMServer, staticContext & Redirect)
   - Client-side rendering (BrowserRouter, HashRouter)
-  - Isomorphic (First request will render in server-side then will chain to clint side rendering)
+  - Isomorphic (First request will render in server-side then will chain to client side rendering)
 
 # Why not using CRA (Create-react-app)?
 
